@@ -1,0 +1,17 @@
+header,
+main {
+    width: 80%;
+}
+
+header img:first-child {
+    float: left;
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
