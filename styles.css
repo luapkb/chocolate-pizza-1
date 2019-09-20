@@ -1,0 +1,78 @@
+header,
+main {
+    margin: 0 auto;
+    width: 70%;
+}
+
+header img:first-child {
+    float: left;
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header div {
+    background-image: url("img/hr-img.png");
+    height: 1em;
+    width: 100%;
+    clear: both;
+}
+
+.title h1 {
+    font-size: 2em;
+}
+
+.title h6 {
+    color: #dddd;
+}
+
+main section:nth-child(2) img {
+    width: 100%;
+}
+
+.recipeForm {
+    text-align: center;
+}
+
+.recipeForm ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipeForm ul li {
+    flex: 1 1 50%;
+    display: inline-block;
+}
+
+.bttmbar {
+    background-image: url("img/hr-img.png");
+    height: 1em;
+    width: 100%;
+}
+
+.recipeForm {
+    width: 100%;
+}
+
+.abovefooter div {
+    display: inline-block;
+}
+
+.abovefooter div:first-child {
+    float: left;
+}
+
+.abovefooter div:last-child {
+    float: right;
+}
+
+.abovefooter div h3 {
+    display: inline;
+}
