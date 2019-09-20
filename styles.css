@@ -1,6 +1,7 @@
 header,
 main {
-    width: 80%;
+    margin: 0 auto;
+    width: 70%;
 }
 
 header img:first-child {
@@ -14,4 +15,23 @@ header ul {
 
 header ul li {
     display: inline-block;
+}
+
+header div {
+    background-color: #ddd;
+    height: 1em;
+    width: 100%;
+    clear: both;
+}
+
+.title h1 {
+    font-size: 2em;
+}
+
+.title h6 {
+    color: #dddd;
+}
+
+main section:nth-child(2) img {
+    width: 100%;
 }
